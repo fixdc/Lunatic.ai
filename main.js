@@ -47,7 +47,7 @@ async function sendToGemini(question) {
     
     try {
       const response = await sendToGemini(userInput);
-      aiOutput.value = response;
+      document.getElementById("aiOutput").innerHTML = marked.parse(response);
     } catch (error) {
       aiOutput.value = "Error: " + error.message;
     } finally {

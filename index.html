@@ -80,13 +80,11 @@
           Send it!
         </button>
       </form>
-      <textarea
-        id="aiOutput"
-        rows="10"
-        readonly
-        class="block p-2.5 w-full text-sm text-white bg-[#90D1CA] rounded-lg font-nexaheavy border-none focus:ring-neutral-100"
-        placeholder="AI Response will be here..."
-      ></textarea>
+      <div
+  id="aiOutput"
+  class="block p-2.5 w-full text-sm text-white bg-[#90D1CA] rounded-lg font-montlight border-none focus:ring-neutral-100 max-h-60 overflow-y-auto"
+  placeholder="AI Response will be here..."
+></div>
     </div>
 
     <footer class="bg-white font-montheavy rounded-t-2xl mx-7 md:mx-36 text-black">
@@ -130,6 +128,7 @@
         }
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
   </body>
 </html>
