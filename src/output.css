@@ -1483,6 +1483,9 @@
   .h-\[calc\(100\%-1rem\)\] {
     height: calc(100% - 1rem);
   }
+  .h-fit {
+    height: fit-content;
+  }
   .h-px {
     height: 1px;
   }
@@ -1491,6 +1494,9 @@
   }
   .max-h-full {
     max-height: 100%;
+  }
+  .min-h-\[120px\] {
+    min-height: 120px;
   }
   .datatable-table {
     .datatable-wrapper & {
@@ -2843,6 +2849,11 @@
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
+    }
+  }
+  .md\:h-screen {
+    @media (width >= 48rem) {
+      height: 100vh;
     }
   }
   .md\:w-44 {

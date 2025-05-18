@@ -1,3 +1,4 @@
+// Fungsi untuk mengirim pertanyaan ke Gemini API
 async function sendToGemini(question) {
     try {
       const API_KEY = "AIzaSyCokAdK_MSVEDK6y2dW-6snk6XsnkgeMng";
