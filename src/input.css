@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+@font-face {
+  font-family: "montlight"; /* Ganti dengan nama font Anda */
+  src: url("/assets/font/mont-light.otf") format("opentype"); /* Format diperbaiki */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montheavy"; /* Ganti dengan nama font Anda */
+  src: url("/assets/font/mont-heavy.otf") format("opentype"); /* Format diperbaiki */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nexalight"; /* Ganti dengan nama font Anda */
+  src: url("/assets/font/nexa-light.ttf") format("truetype"); /* Format diperbaiki */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nexaheavy"; /* Ganti dengan nama font Anda */
+  src: url("/assets/font/nexa-heavy.ttf") format("truetype"); /* Format diperbaiki */
+  font-weight: normal;
+  font-style: normal;
+}
+@theme {
+  --font-montheavy: "montheavy"; /* Opsional */
+  --font-montlight: "montlight"; /* Opsional */
+  --font-nexalight: "nexalight"; /* Opsional */
+  --font-nexaheavy: "nexaheavy"; /* Opsional */
+}
